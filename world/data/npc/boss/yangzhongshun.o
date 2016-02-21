@@ -1,0 +1,10 @@
+#/d/city/npc/yang.c
+dbase (["unit":"位","eff_gin":488,"env":(["wimpy":50,]),"atman":3,"vendor_goods":(["dan":"/d/obj/drug/hunyuandan","yao":"/d/obj/drug/jinchuang","taogan":"/d/obj/drug/fake-tao",]),"max_gin":488,"default_actions":,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"combat_exp":10000,"actions":,"max_sen":200,"max_atman":83,"kee":300,"max_kee":300,"can_speak":1,"eff_kee":300,"per":30,"long":"杨老板是长安城里祖传的名医。虽然年轻，却早已名声在外。","spi":23,"con":26,"startroom":"/d/city/yaopu","cor":21,"int":14,"cps":26,"str":26,"kar":28,"eff_sen":200,"gender":"男性","name":"杨中顺","inquiry":(["疗伤":,"治伤":,"开药":,]),"age":37,"id":"yang zhongshun","title":"药铺掌柜","gin":488,"race":"人类","sen":200,"attitude":"friendly",])
+skills (["literate":70,"dodge":60,"unarmed":60,])
+learned (["literate":0,"dodge":0,"unarmed":0,])
+autoload ({"/obj/money/gold:1",})
+SAVE_NAME "yangzhongshun"
+price_ratio 10
+minimum_bid 1000
+close_time 907179859
+profit 2000

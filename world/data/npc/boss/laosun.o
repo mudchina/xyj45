@@ -1,0 +1,9 @@
+#/d/city/npc/laosun.c
+dbase (["unit":"位","eff_gin":236,"vendor_goods":(["greenhair":"/d/obj/magic/hgreen","amberhair":"/d/obj/magic/hamber","orangehair":"/d/obj/magic/horange","blackhair":"/d/obj/magic/hblack","pinkhair":"/d/obj/magic/hpink","magentahair":"/d/obj/magic/hmagenta","indigohair":"/d/obj/magic/hindigo","maroonhair":"/d/obj/magic/hmaroon","whitehair":"/d/obj/magic/hwhite","redhair":"/d/obj/magic/hred","bluehair":"/d/obj/magic/hblue","violethair":"/d/obj/magic/hviolet","yellowhair":"/d/obj/magic/hyellow","brownhair":"/d/obj/magic/hbrown","scarlethair":"/d/obj/magic/hscarlet",]),"max_gin":236,"default_actions":,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"actions":,"combat_exp":15000,"max_sen":186,"kee":260,"max_kee":260,"can_speak":1,"eff_kee":260,"per":22,"long":"一位长得瘦猴似的老头。","spi":11,"startroom":"/d/city/maohuo","con":10,"cor":13,"int":18,"cps":27,"str":23,"kar":19,"eff_sen":186,"gender":"男性","name":"老孙","age":58,"id":"lao sun","title":"皮货店老板","gin":236,"race":"人类","sen":186,"attitude":"peaceful",])
+skills (["dodge":30,])
+learned (["dodge":0,])
+autoload ({"/obj/money/coin:100",})
+SAVE_NAME "laosun"
+price_ratio 10
+minimum_bid 1000
+close_time 907217227

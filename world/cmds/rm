@@ -1,0 +1,16 @@
+	rm( link_ob->query_save_file() + __SAVE_EXTENSION__ );
+	rm( me->query_save_file() + __SAVE_EXTENSION__ );
+	rm( "/data/playerhomes/h_"+myid+ __SAVE_EXTENSION__ );
+	rm( "/data/mail/"+myid[0..0]+"/"+myid+ __SAVE_EXTENSION__ );
+        rm("/data/mail/"+couple[0..0]+"/"+couple+__SAVE_EXTENSION__);
+
+	rm(DATA_DIR + "login/" + name[0..0] + "/" + name + __SAVE_EXTENSION__);
+	rm(DATA_DIR + "user/" + name[0..0] + "/" + name + __SAVE_EXTENSION__);
+	rm(DATA_DIR + "login/" + dir[i] + "/" + ppls[j]);
+	rm(DATA_DIR + "user/" + dir[i] + "/" + ppls[j]);
+
+	rm( link_ob->query_save_file() + __SAVE_EXTENSION__ );
+	rm( me->query_save_file() + __SAVE_EXTENSION__ );
+	rm( "/data/playerhomes/h_"+myid+ __SAVE_EXTENSION__ );
+	rm( "/data/mail/"+myid[0..0]+"/"+myid+ __SAVE_EXTENSION__ );
+        rm( "/data/fabao/"+myid[0..0]+"/"+myid+"-"+my_fabao[fabao_list[i]]

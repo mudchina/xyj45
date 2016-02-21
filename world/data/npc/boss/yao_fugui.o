@@ -1,0 +1,9 @@
+#/d/city/npc/xiaoliu.c
+dbase (["unit":"位","eff_gin":484,"shen_type":1,"vendor_goods":(["hat":"/d/gao/obj/hat","magua":"/d/gao/obj/magua","pipao":"/d/gao/obj/piyi","shoes":"/d/gao/obj/shoes",]),"max_gin":484,"default_actions":,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"combat_exp":10000,"actions":,"max_sen":484,"kee":532,"max_kee":532,"can_speak":1,"eff_kee":532,"per":24,"long":"姚老板是高家集人，后来挣了钱，开了家布店。","spi":24,"con":27,"cor":10,"int":10,"cps":19,"str":11,"kar":24,"eff_sen":484,"gender":"男性","name":"姚富贵","age":36,"id":"yao fugui","title":"布店老板","gin":484,"race":"人类","attitude":"friendly","sen":484,])
+skills (["parry":35,"dodge":30,"unarmed":35,])
+learned (["parry":0,"dodge":0,"unarmed":0,])
+autoload ({"/obj/money/silver:5",})
+SAVE_NAME "yao_fugui"
+price_ratio 10
+minimum_bid 1000
+close_time 907216390

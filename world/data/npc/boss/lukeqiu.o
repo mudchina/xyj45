@@ -1,0 +1,9 @@
+#/d/city/npc/lu.c
+dbase (["force_factor":5,"unit":"位","eff_gin":580,"max_gin":580,"default_actions":,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"actions":,"combat_exp":20000,"vendor_goods":(["blade":"/d/city/obj/mudao","staff":"/d/city/obj/muzhang","stick":"/d/city/obj/mugun","sword":"/d/city/obj/mujian","spear":"/d/city/obj/muqiang",]),"max_sen":570,"can_speak":1,"kee":630,"max_kee":630,"eff_kee":630,"per":30,"long":"鲁老板是南方人，看起来挺精明的。","spi":30,"startroom":"/d/city/muqi","con":30,"force":200,"cor":21,"int":16,"cps":22,"str":30,"kar":23,"eff_sen":570,"gender":"男性","name":"鲁可丘","age":42,"id":"lu keqiu","title":"木器铺老板","race":"人类","gin":580,"max_force":200,"sen":570,"attitude":"peaceful",])
+skills (["parry":50,"force":50,"dodge":50,"unarmed":50,])
+learned (["parry":0,"force":0,"dodge":0,"unarmed":0,])
+autoload ({"/obj/money/silver:20",})
+SAVE_NAME "lukeqiu"
+price_ratio 10
+minimum_bid 1000
+close_time 907181883

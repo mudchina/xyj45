@@ -1,0 +1,27 @@
+// 神话世界·西游记·版本４．５０
+/* <SecCrypt CPL V3R05> */
+ 
+// dart.c
+
+#include <weapon.h>
+
+inherit THROWING;
+
+void create()
+{
+        set_name("毒镖", ({ "biao" }) );
+        if( clonep() )
+                set_default_object(__FILE__);
+        else {
+                set("long",
+"飞镖是一种十分常见的暗器，而毒镖却只有一个人有．\n");
+                set("unit", "些");
+                set("base_unit", "枝");
+                set("base_weight", 40);
+                set("base_value", 50);
+        }
+        set_amount(30);
+        init_throwing(20);
+        setup();
+}
+

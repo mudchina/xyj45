@@ -1,0 +1,5 @@
+#/d/obj/clone/npc/shang-shan.c
+dbase (["unit":"位","eff_sen":324,"weapon":0,"max_gin":350,"default_actions":,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"combat_exp":2000000,"actions":,"shen_type":0,"max_sen":324,"kee":19980,"max_kee":350,"eff_kee":19980,"per":29,"channel":(["tell_count":2,]),"spi":14,"winner":"powe","con":19,"force":962,"eff_gin":350,"startroom":"/d/suburb/xkx/taishan/xiayi","cor":18,"int":19,"cps":16,"can_speak":1,"str":20,"kar":27,"gender":"男性","generation":1,"name":"七八牛","age":14,"short":"第一代赏善使者 七八牛(shangshan shizhe)","id":"shangshan","race":"人类","gin":350,"jiali":0,"max_force":1000,"armor":"/obj/bandage","long":"一位笑容可掬的中年人，他就是乐善好施，爱贫如子的武林赏善使者。","potential":2,"dex":0,"no_clean_up":1,"attitude":"heroism","sen":324,])
+skills (["spells":23,"literate":1,"dodge":23,"sword":23,"unarmed":23,"hammer":0,"wuxiangforce":23,"snowsword":23,"parry":23,"force":23,])
+learned (["spells":0,"literate":0,"dodge":0,"sword":0,"unarmed":0,"hammer":0,"wuxiangforce":0,"snowsword":0,"parry":0,"force":0,])
+skill_map (["force":"wuxiangforce","sword":"snowsword",])

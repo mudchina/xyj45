@@ -1,0 +1,26 @@
+// 神话世界·西游记·版本４．５０
+/* <SecCrypt CPL V3R05> */
+ 
+// rake.c
+
+#include <weapon.h>
+
+inherit RAKE;
+
+void create()
+{
+        set_name("钢耙", ({ "gang pa", "pa","rake" }) );
+        set_weight(8000);
+        if( clonep() )
+                set_default_object(__FILE__);
+        else {
+                set("unit", "柄");
+                set("value", 1000);
+                set("material", "iron");
+                set("long", "一柄长长的七齿钢耙。\n");
+                set("wield_msg", "$N抄起一柄$n，在头上挥舞了一圈。\n");
+        }
+        init_rake(25);
+        setup();
+}
+

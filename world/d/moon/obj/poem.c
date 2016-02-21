@@ -1,0 +1,76 @@
+// …Òª∞ ¿ΩÁ°§Œ˜”Œº«°§∞Ê±æ£¥£Æ£µ£∞
+/* <SecCrypt CPL V3R05> */
+ 
+// poem.c
+
+inherit ITEM;
+
+void init();
+int do_read();
+
+void create()
+{
+        set_name("∂œ≥¶ºØ", ({"poem","book","shu"}));
+        set_weight(1000);
+        if( clonep() )
+                set_default_object(__FILE__);
+        else {
+                set("unit", "±æ");
+   set("long",
+   "“ª±æ ÷≥≠µƒ£¢∂œ≥¶ºØ£¢£¨◊÷º£æÍ–„£¨ È“≥…œ“˛“˛”–“ª–©¿·∫€£Æ\n");
+        set("value", 500);   
+        }
+}
+
+void init()
+{
+   add_action("do_read", "read");
+   add_action("do_read", "study");
+}
+
+int do_read(string arg)
+{
+   object me;
+   int sen_cost, gain;
+   string *poem = ({
+     "«°»Á∑…ƒÒæÎ÷™ªπ£¨Â£µ¥¿Êª®…Ó‘∫°£",
+     "∑˜∑˜∑Á«∞∂»∞µœ„£¨‘¬…´«÷ª®¿‰°£",
+     "≤ª∑≈”Òª®∑…∂Èµÿ£¨¡Ù‘⁄π„∫Æπ¨„⁄°££",
+     "∞—æ∆ÀÕ¥∫¥∫≤ª”Ô£¨ª∆ªË»¥œ¬‰Ï‰Ï”Í°££",
+     "”Ã◊‘∑Á«∞∆Æ¡¯–ı£¨ÀÊ¥∫«“ø¥πÈ∫Œ¥¶°£°£",
+     "≥Ó≤°œ‡»‘£¨Ãﬁæ°∫Æµ∆√Œ≤ª≥…°£",
+     "ÿ˘¡¢…À…Ò£¨ŒﬁƒŒ«·∫Æ÷¯√˛»À°£",
+     "¬˙‘∫¬‰ª®¡±≤ªæÌ£¨∂œ≥¶∑º≤›‘∂°£",
+     "Œﬁ–˜æÎ—∞∑º£¨œ–»¥«Ô«ßÀ˜°£",
+     "–°‘∫œÊ¡±œ–≤ªæÌ£¨«˙∑ø÷Ïªß√∆≥§ÏÁ",
+     });
+   
+   me=this_player();
+
+       if( !this_object()->id(arg) ) return 0;
+       if( me->is_busy() )
+             return notify_fail("ƒ„œ÷‘⁄√¶◊≈ƒÿ£¨ƒƒ”–œ–«È“›÷¬“˜ ´...\n");
+      if( me->is_fighting() )
+             return notify_fail("Ã´∑Á—≈¡À∞…£ø¥Úº‹ ±ªπ“˜ ´...\n");
+   
+   if ((me->query("gender") == "ƒ––‘") || !((string)me->query("family/family_name")=="‘¬π¨"))
+     return notify_fail("Êœ∂µƒÀΩŒÔ£¨Õ‚»Àø¥≤ªÃ´∫√∞…£°\n");
+
+   if( (int)me->query_skill("literate",1)<40 )
+     return notify_fail("ƒ„’’◊≈ ´ºØ“°Õ∑ªŒƒ‘µÿ∫ﬂ¡Àº∏æ‰£¨≤ªπ˝√ª√˜∞◊ «…∂“‚Àº°£\n");
+   if( (int)me->query_skill("literate",1)>70 )
+     return notify_fail("ƒ„‘⁄’‚∑Ω√Ê“—æ≠∫‹”–‘Ï“Ë£¨’‚±æ È≤ªª·»√ƒ„≥§Ω¯∂‡…Ÿ°£\n");
+
+   sen_cost = 50 + (35-(int)me->query("int"));
+   if( (int)me->query("sen")<sen_cost )
+     return notify_fail("ƒ„œ÷‘⁄Õ∑‘Œƒ‘’Õ£¨∏√–›œ¢–›œ¢¡À°£\n");   
+   me->receive_damage("sen", sen_cost);
+
+   gain = (int)me->query_skill("literate", 1)/5+(int)me->query("int")/4+1;
+   me->improve_skill("literate", gain);
+
+       message_vision("$N«·«·Ãæµ¿£∫" + poem[random(sizeof(poem))] + "\n", me);
+     
+   return 1;
+}
+

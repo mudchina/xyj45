@@ -1,0 +1,9 @@
+#/d/city/npc/laowei.c
+dbase (["force_factor":5,"unit":"位","eff_gin":452,"vendor_goods":(["seal":"/obj/paper_seal","bag":"/d/obj/misc/bag","cutan":"/d/obj/food/cutan",]),"shen_type":1,"max_gin":452,"default_actions":,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"actions":,"combat_exp":10000,"max_sen":442,"kee":406,"max_kee":406,"can_speak":1,"eff_kee":406,"per":30,"long":"杂货铺的老板，笑眯眯的看着你。","spi":22,"startroom":"/d/city/zahuopu","force":200,"con":16,"cor":18,"int":20,"cps":29,"str":29,"kar":14,"eff_sen":442,"gender":"男性","name":"魏录齐","age":42,"id":"wei luqi","title":"杂货铺老板","gin":452,"race":"人类","max_force":200,"sen":442,"attitude":"peaceful",])
+skills (["parry":30,"dodge":40,"unarmed":30,])
+learned (["parry":0,"dodge":0,"unarmed":0,])
+autoload ({})
+SAVE_NAME "city_weiluqi"
+price_ratio 10
+minimum_bid 1000
+close_time 907219480

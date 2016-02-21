@@ -1,0 +1,4 @@
+// binfa.c
+
+inherit SKILL;
+

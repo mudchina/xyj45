@@ -1,0 +1,4 @@
+current perform functions. 8/10/97 mon
+
+./fighter/sanban-axe/sanban.c:int perform(object me, object target)
+./bonze/jienan-zhi/storm.c:int perform(object me, object target)

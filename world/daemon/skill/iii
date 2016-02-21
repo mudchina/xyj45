@@ -1,0 +1,164 @@
+#!/bin/sh
+
+mv archery.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/archery.c archery.c
+mv axe.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/axe.c axe.c
+mv baguazhou.c ../skill_wiz/unarmed
+ln -s ../skill_wiz/unarmed/baguazhou.c baguazhou.c
+mv baihua-zhang.c ../skill_wiz/unarmed
+ln -s ../skill_wiz/unarmed/baihua-zhang.c baihua-zhang.c
+mv bawang-qiang.c ../skill_wiz/spear
+ln -s ../skill_wiz/spear/bawang-qiang.c bawang-qiang.c
+mv bingpo-blade.c ../skill_wiz/blade
+ln -s ../skill_wiz/blade/bingpo-blade.c bingpo-blade.c
+mv blade.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/blade.c blade.c
+mv buddhism.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/buddhism.c buddhism.c
+mv changquan.c ../skill_wiz/unarmed
+ln -s ../skill_wiz/unarmed/changquan.c changquan.c
+mv chaos-steps.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/chaos-steps.c chaos-steps.c
+mv cloudstaff.c ../skill_wiz/staff
+ln -s ../skill_wiz/staff/cloudstaff.c cloudstaff.c
+mv dagger.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/dagger.c dagger.c
+mv dao.c ../skill_wiz/spell
+ln -s ../skill_wiz/spell/dao.c dao.c
+mv dengxian-dafa.c ../skill_wiz/spell
+ln -s ../skill_wiz/spell/dengxian-dafa.c dengxian-dafa.c
+mv dengxian.c ../skill_wiz/spell
+ln -s ../skill_wiz/spell/dengxian.c dengxian.c
+mv dodge.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/dodge.c dodge.c
+mv dragonfight.c ../skill_wiz/unarmed
+ln -s ../skill_wiz/unarmed/dragonfight.c dragonfight.c
+mv dragonforce.c ../skill_wiz/force
+ln -s ../skill_wiz/force/dragonforce.c dragonforce.c
+mv dragonstep.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/dragonstep.c dragonstep.c
+mv fonxansword.c ../skill_wiz/sword
+ln -s ../skill_wiz/sword/fonxansword.c fonxansword.c
+mv force.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/force.c force.c
+mv fork.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/fork.c fork.c
+mv ghost-steps.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/ghost-steps.c ghost-steps.c
+mv gouhunshu.c ../skill_wiz/unarmed
+ln -s ../skill_wiz/unarmed/gouhunshu.c gouhunshu.c
+mv hammer.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/hammer.c hammer.c
+mv hellfire-whip.c ../skill_wiz/whip
+ln -s ../skill_wiz/whip/hellfire-whip.c hellfire-whip.c
+mv huntian-qigong.c ../skill_wiz/force
+ln -s ../skill_wiz/force/huntian-qigong.c huntian-qigong.c
+mv jadesword.c ../skill_wiz/sword
+ln -s ../skill_wiz/sword/jadesword.c jadesword.c
+mv jienan-zhi.c ../skill_wiz/unarmed
+ln -s ../skill_wiz/unarmed/jienan-zhi.c jienan-zhi.c
+mv jindouyun.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/jindouyun.c jindouyun.c
+mv jinghun-zhang.c ../skill_wiz/unarmed
+ln -s ../skill_wiz/unarmed/jinghun-zhang.c jinghun-zhang.c
+mv jinglei-mace.c ../skill_wiz/mace
+ln -s ../skill_wiz/mace/jinglei-mace.c jinglei-mace.c
+mv kugu-blade.c ../skill_wiz/blade
+ln -s ../skill_wiz/blade/kugu-blade.c kugu-blade.c
+mv kusang-bang.c ../skill_wiz/stick
+ln -s ../skill_wiz/stick/kusang-bang.c kusang-bang.c
+mv lengquan-force.c ../skill_wiz/force
+ln -s ../skill_wiz/force/lengquan-force.c lengquan-force.c
+mv lingfu-steps.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/lingfu-steps.c lingfu-steps.c
+mv literate.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/literate.c literate.c
+mv lotusforce.c ../skill_wiz/force
+ln -s ../skill_wiz/force/lotusforce.c lotusforce.c
+mv lotusmove.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/lotusmove.c lotusmove.c
+mv lunhui-zhang.c ../skill_wiz/staff
+ln -s ../skill_wiz/staff/lunhui-zhang.c lunhui-zhang.c
+mv mace.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/mace.c mace.c
+mv magic.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/magic.c magic.c
+mv moondance.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/moondance.c moondance.c
+mv moonforce.c ../skill_wiz/force
+ln -s ../skill_wiz/force/moonforce.c moonforce.c
+mv moonshentong.c ../skill_wiz/spell
+ln -s ../skill_wiz/spell/moonshentong.c moonshentong.c
+mv moshenbu.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/moshenbu.c moshenbu.c
+mv move.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/move.c move.c
+mv ningxie-force.c ../skill_wiz/force
+ln -s ../skill_wiz/force/ningxie-force.c ningxie-force.c
+mv ningxue.c ../skill_wiz/force
+ln -s ../skill_wiz/force/ningxue.c ningxue.c
+mv parry.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/parry.c parry.c
+mv puti-zhi.c ../skill_wiz/unarmed
+ln -s ../skill_wiz/unarmed/puti-zhi.c puti-zhi.c
+mv qianjun-bang.c ../skill_wiz/stick
+ln -s ../skill_wiz/stick/qianjun-bang.c qianjun-bang.c
+mv qixiu-jian.c ../skill_wiz/sword
+ln -s ../skill_wiz/sword/qixiu-jian.c qixiu-jian.c
+mv sanban-axe.c ../skill_wiz/axe
+ln -s ../skill_wiz/axe/sanban-axe.c sanban-axe.c
+mv seashentong.c ../skill_wiz/spell
+ln -s ../skill_wiz/spell/seashentong.c seashentong.c
+mv shatianqi.c ../skill_wiz/force
+ln -s ../skill_wiz/force/shatianqi.c shatianqi.c
+mv six-chaos-sword.c ../skill_wiz/sword
+ln -s ../skill_wiz/sword/six-chaos-sword.c six-chaos-sword.c
+mv snowsword.c ../skill_wiz/sword
+ln -s ../skill_wiz/sword/snowsword.c snowsword.c
+mv spear.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/spear.c spear.c
+mv spells.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/spells.c spells.c
+mv staff.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/staff.c staff.c
+mv stealing.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/stealing.c stealing.c
+mv stick.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/stick.c stick.c
+mv sword.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/sword.c sword.c
+mv throwing.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/throwing.c throwing.c
+mv tianmo.c ../skill_wiz/spell
+ln -s ../skill_wiz/spell/tianmo.c tianmo.c
+mv tonsillit.c ../skill_wiz/force
+ln -s ../skill_wiz/force/tonsillit.c tonsillit.c
+mv unarmed.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/unarmed.c unarmed.c
+mv whip.c ../skill_wiz/basic
+ln -s ../skill_wiz/basic/whip.c whip.c
+mv wind.c ../skill_wiz/sword
+ln -s ../skill_wiz/sword/wind.c wind.c
+mv wudi-mace.c ../skill_wiz/mace
+ln -s ../skill_wiz/mace/wudi-mace.c wudi-mace.c
+mv wuhu-blade.c ../skill_wiz/blade
+ln -s ../skill_wiz/blade/wuhu-blade.c wuhu-blade.c
+mv wusi-mace.c ../skill_wiz/mace
+ln -s ../skill_wiz/mace/wusi-mace.c wusi-mace.c
+mv wuxiangforce.c ../skill_wiz/force
+ln -s ../skill_wiz/force/wuxiangforce.c wuxiangforce.c
+mv xiaofeng-sword.c ../skill_wiz/sword
+ln -s ../skill_wiz/sword/xiaofeng-sword.c xiaofeng-sword.c
+mv xiaoyaoyou.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/xiaoyaoyou.c xiaoyaoyou.c
+mv xuanyuan-archery.c ../skill_wiz/archery
+ln -s ../skill_wiz/archery/xuanyuan-archery.c xuanyuan-archery.c
+mv yange-blade.c ../skill_wiz/blade
+ln -s ../skill_wiz/blade/yange-blade.c yange-blade.c
+mv yanxing-steps.c ../skill_wiz/dodge
+ln -s ../skill_wiz/dodge/yanxing-steps.c yanxing-steps.c
+mv yaofa.c ../skill_wiz/spell
+ln -s ../skill_wiz/spell/yaofa.c yaofa.c
+mv yinfeng-zhua.c ../skill_wiz/unarmed
+ln -s ../skill_wiz/unarmed/yinfeng-zhua.c yinfeng-zhua.c

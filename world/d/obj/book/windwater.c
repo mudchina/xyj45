@@ -1,0 +1,35 @@
+// 神话世界·西游记·版本４．５０
+/* <SecCrypt CPL V3R05> */
+ 
+// nowords.c
+//cglaem...12/16/96.
+
+inherit ITEM;
+
+void init();
+void tear();
+
+void create()
+{
+        set_name("〖风水〗", ({"book","shu"}));
+        set_weight(1000);
+        if( clonep() )
+                set_default_object(__FILE__);
+        else {
+                set("unit", "本");
+   set("long",
+   "一本脏兮兮的小册子。上面划着一地形之类的图案。\n");
+        set("material", "paper");
+        set("value", 100);
+        set("skill", ([
+                        "name": "spells",
+                        "exp_required": 0,
+                        "sen_cost": 20,
+                        "difficulty": 25,
+                        "max_skill": 20,
+]) );
+        }
+   setup();
+}
+
+

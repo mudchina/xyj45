@@ -1,0 +1,12 @@
+#/d/city/npc/xiaoxiao.c
+dbase (["force_factor":5,"cps":11,"str":30,"eff_gin":408,"unit":"位","kar":23,"eff_sen":408,"gender":"女性","name":"萧萧","age":25,"id":"xiao xiao","can_speak":1,"max_gin":408,"max_force":200,"default_actions":,"title":"恶娘子","limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"actions":,"gin":408,"vendor_goods":(["hammer":"/d/obj/weapon/hammer/tongchui","blade":"/d/obj/weapon/blade/blade","shield":"/d/obj/armor/niupi","staff":"/d/obj/weapon/staff/chanzhang","sword":"/d/obj/weapon/sword/changjian","spear":"/d/obj/weapon/spear/tieqiang",]),"combat_exp":70000,"max_sen":408,"long":"老英雄萧振远的小女儿，兵器铺女老板。
+由于凶蛮狠毒，江湖人称＂恶娘子＂。
+","kee":304,"max_kee":304,"eff_kee":304,"per":17,"attitude":"peaceful","spi":28,"race":"人类","startroom":"/d/city/bingqipu","con":14,"force":200,"sen":408,"cor":23,"int":14,])
+skills (["moondance":50,"fonxansword":30,"parry":50,"dodge":50,"sword":50,"unarmed":50,])
+learned (["moondance":0,"fonxansword":0,"parry":0,"dodge":0,"sword":0,"unarmed":0,])
+skill_map (["parry":"fonxansword","sword":"fonxansword","dodge":"moondance",])
+autoload ({})
+SAVE_NAME "xiaoxiao"
+price_ratio 10
+minimum_bid 1000
+close_time 907183643

@@ -1,0 +1,29 @@
+// 神话世界·西游记·版本４．５０
+/* <SecCrypt CPL V3R05> */
+ 
+// create by snowcat.c 12/15/1997
+
+inherit ROOM;
+
+void create ()
+{
+  set ("short", "乌林子");
+  set ("long", @LONG
+
+黑压压远远一片林子，树木茂密，杂草有齐胸高。乱石丛中有
+一条弯曲的小路，路上碎石高高低低地铺开。风吹草动，仿佛
+四周有眼睛在暗处盯着你。
+
+LONG);
+
+  set("exits", ([
+        "northdown"   : __DIR__"shan12",
+        "southeast"   : __DIR__"wulin2",
+      ]));
+  set("outdoors", __DIR__);
+
+  setup();
+}
+
+
+

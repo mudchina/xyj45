@@ -1,0 +1,9 @@
+#/d/kaifeng/npc/hai.c
+dbase (["per":24,"age":48,"spi":19,"con":21,"gin":404,"cor":15,"eff_gin":404,"int":11,"race":"人类","cps":13,"shop_id":({"laoban","waiter",}),"gender":"男性","default_actions":,"str":27,"startroom":"/d/kaifeng/qili","kar":13,"sen":364,"name":"海老板","can_speak":1,"id":"hai laoban","combat_exp":5000,"limbs":({"头部","颈部","胸口","后心","左肩","右肩","左臂","右臂","左手","右手","腰间","小腹","左腿","右腿","左脚","右脚",}),"actions":,"attitude":"friendly","max_sen":364,"eff_sen":364,"kee":436,"shen_type":1,"max_gin":404,"max_kee":436,"eff_kee":436,"vendor_goods":(["dutiao":"/d/kaifeng/obj/dutiao","changtou":"/d/kaifeng/obj/changtou","feipian":"/d/kaifeng/obj/feipian","ganjian":"/d/kaifeng/obj/ganjian",]),"unit":"位",])
+skills (["parry":50,"unarmed":50,"dodge":50,])
+learned (["parry":0,"unarmed":0,"dodge":0,])
+autoload ({})
+SAVE_NAME "kaifeng_hai"
+price_ratio 10
+minimum_bid 1000
+close_time 907327520
